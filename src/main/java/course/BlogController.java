@@ -270,7 +270,7 @@ public class BlogController {
             }
         });
 
-        get(new FreemarkerBasedRoute("/", "welcome.ftl") {
+        get(new FreemarkerBasedRoute("/welcome", "welcome.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
 
