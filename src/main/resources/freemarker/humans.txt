@@ -1,0 +1,8 @@
+/* Gerardo Cordero is a Front-end Back-end developer, an Engineer in Computer Science graduated at "Universidad Centroccidental Lisandro Alvarado, UCLA" */
+/* www.gerardocordero.me */
+/* www.gerardocordero.com.ve */
+
+/* SITE */
+  Standards: HTML5, CSS3,
+  Components: jQuery, Angularjs, Vuejs,
+  Software: Sublime, Git, Stylus, NPM, Yeoman, Laravel, JavaEE
