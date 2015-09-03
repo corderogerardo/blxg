@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire4014068976500173671tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire6631759150662096238tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter8569200245466034101.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
-    </list>
+    <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="" />
     <ignored path="blxg.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,11 +26,9 @@
       <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39613527">
-              <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.33816424">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -523,11 +509,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39613527">
-          <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.33816424">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
