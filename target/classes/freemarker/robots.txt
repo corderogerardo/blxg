@@ -1,3 +1,0 @@
-# www.gerardocordero.me/
-
-User-agent: *
