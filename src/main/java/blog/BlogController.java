@@ -25,14 +25,7 @@ public class BlogController {
    // private final BlogPostDAO blogPostDAO;
    //private final UserDAO userDAO;
    // private final SessionDAO sessionDAO;
-    public static void main(String[] args)throws IOException{
 
-        if(args.length==0){
-            new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401t");
-        }else{
-            new BlogController(args[0]);
-        }
-    }
     private static int getHerokuAssignedPort() {
 
         ProcessBuilder processBuilder = new ProcessBuilder();
