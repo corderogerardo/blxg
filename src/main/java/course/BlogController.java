@@ -39,7 +39,7 @@ public class BlogController {
 
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401t");
+            new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401");
             //new course.BlogController("mongodb://localhost");
         }
         else {
@@ -270,7 +270,7 @@ public class BlogController {
             }
         });
 
-        get(new FreemarkerBasedRoute("/welcome", "welcome.ftl") {
+        get(new FreemarkerBasedRoute("/", "welcome.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
 
