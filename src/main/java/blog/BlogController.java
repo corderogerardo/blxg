@@ -28,7 +28,7 @@ public class BlogController {
     public static void main(String[] args)throws IOException{
 
         if(args.length==0){
-            new BlogController("mongodb://<dbuser>:<dbpassword>@ds055742.mongolab.com:55742/heroku_r763m401t");
+            new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401t");
         }else{
             new BlogController(args[0]);
         }
