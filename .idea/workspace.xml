@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire143138628225585790tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire4505403108904677973tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter3324796191204832828.jar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/BlogController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/BlogPostDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SessionDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UserDAO.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire1988129876823052148tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire4559181428576244241tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter6934046940534484971.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/BlogController$1.class" afterPath="$PROJECT_DIR$/target/classes/blog/BlogController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController$1.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/BlogController$FreemarkerBasedRoute.class" afterPath="$PROJECT_DIR$/target/classes/blog/BlogController$FreemarkerBasedRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController$FreemarkerBasedRoute.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController$FreemarkerBasedRoute.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/blog/BlogController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/blog/BlogController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main.txt" afterPath="$PROJECT_DIR$/src/main/java/main.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="blxg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,13 +46,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blog/BlogController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,11 +58,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5147059">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.29411766">
+              <caret line="8" column="124" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="124" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,9 +86,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/main.txt" />
         <option value="$PROJECT_DIR$/src/main/java/blog/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
@@ -251,6 +255,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.BlogController">
     <configuration default="false" name="BlogController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -452,7 +461,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16983895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -511,9 +520,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14705883">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.77205884">
+        <state vertical-scroll-proportion="-0.9852941">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
@@ -521,21 +538,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blog/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.8088235">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5147059">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.29411766">
+          <caret line="8" column="124" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="124" />
+          <folding />
         </state>
       </provider>
     </entry>
