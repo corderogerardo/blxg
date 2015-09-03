@@ -1,12 +1,13 @@
+package blog;
+
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoDatabase;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-import spark.Request;
-import spark.Response;
-import spark.Route;
+import spark.*;
+import spark.route.RouteMatch;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -14,7 +15,6 @@ import java.io.Writer;
 
 import static javax.swing.UIManager.get;
 import static spark.SparkBase.port;
-import static spark.SparkBase.setPort;
 
 /**
  * Created by gerardo on 02/09/15.
@@ -24,10 +24,10 @@ public class BlogController {
    // private final BlogPostDAO blogPostDAO;
    //private final UserDAO userDAO;
    // private final SessionDAO sessionDAO;
-    public static void main(String[] args) {
+    public static void main(String[] args)throws IOException{
 
         if(args.length==0){
-            new BlogController("/");
+            new BlogController("mongodb://");
         }else{
             new BlogController(args[0]);
         }
@@ -55,11 +55,17 @@ public class BlogController {
 
     }
 
-    abstract class FreemarkerBasedRoute extends Route{
+    abstract class FreemarkerBasedRoute implements Route {
         final Template template;
+        final String path;
 
+        /**
+         * Constructor
+         *
+         * @param path the route path which is used for matching. e.g /hello, /users/:name
+         */
         protected FreemarkerBasedRoute(final String path, final String templateName)throws IOException{
-            super(path);
+            this.path=path;
             template = conf.getTemplate(templateName);
         }
         @Override
@@ -79,11 +85,11 @@ public class BlogController {
 
     private void initializeRoutes()throws IOException{
         //Este es la pagina inicial del blog
-        get(new FreemarkerBasedRoute("/","welcome.ftl"){
-          // @Override
-        //public void doHandle(Request request,Response response, Writer writer)throws IOException, TemplateException{
+        get(new FreemarkerBasedRoute("/", "welcome.ftl"){
+          @Override
+        public void doHandle(Request request,Response response, Writer writer)throws IOException, TemplateException{
 
-          // }
+           }
         });
     }
 
