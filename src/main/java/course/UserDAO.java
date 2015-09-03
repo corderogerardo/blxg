@@ -1,4 +1,4 @@
-/*
+package course;/*
  * Copyright (c) 2008 - 2013 10gen, Inc. <http://10gen.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

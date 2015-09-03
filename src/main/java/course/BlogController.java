@@ -1,5 +1,5 @@
-import com.mongodb.DB;
-import com.mongodb.DBObject;
+package course;
+
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoDatabase;
@@ -24,7 +24,6 @@ import java.util.List;
 import static spark.Spark.get;
 import static spark.Spark.post;
 import static spark.Spark.setPort;
-import static spark.SparkBase.port;
 
 /**
  * This class encapsulates the controllers for the blog web application.  It delegates all interaction with MongoDB
@@ -41,7 +40,7 @@ public class BlogController {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401t");
-            //new BlogController("mongodb://localhost");
+            //new course.BlogController("mongodb://localhost");
         }
         else {
             new BlogController(args[0]);
@@ -68,7 +67,7 @@ public class BlogController {
         sessionDAO = new SessionDAO(blogDatabase);
 
         cfg = createFreemarkerConfiguration();
-        port(getHerokuAssignedPort());
+        setPort(getHerokuAssignedPort());
         //setPort(8082);
         initializeRoutes();
     }
