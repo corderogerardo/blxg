@@ -2,77 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/Main.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire2394162239621454195tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7547405064729414679tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter7348479934813556279.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/img/ic_administrator.png" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/img/ic_administrator.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/javax.servlet-3.0.0.v201112011016.jar" afterPath="$PROJECT_DIR$/target/dependency/javax.servlet-3.0.0.v201112011016.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/javax.servlet-3.0.0.v201112011016.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/javax.servlet-3.0.0.v201112011016.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-http-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-http-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-http-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-http-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-io-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-io-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-io-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-io-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-security-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-security-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-security-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-security-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-server-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-server-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-server-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-server-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-servlet-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-servlet-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-servlet-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-servlet-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-util-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-util-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-util-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-util-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-webapp-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-webapp-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-webapp-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-webapp-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/jetty-xml-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/dependency/jetty-xml-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-xml-9.0.2.v20130417.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jetty-xml-9.0.2.v20130417.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/slf4j-api-1.7.7.jar" afterPath="$PROJECT_DIR$/target/dependency/slf4j-api-1.7.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/slf4j-api-1.7.7.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/slf4j-api-1.7.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/slf4j-simple-1.7.7.jar" afterPath="$PROJECT_DIR$/target/dependency/slf4j-simple-1.7.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/slf4j-simple-1.7.7.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/slf4j-simple-1.7.7.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/spark-core-2.2.jar" afterPath="$PROJECT_DIR$/target/dependency/spark-core-2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spark-core-2.2.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/spark-core-2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter7348479934813556279.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter7348479934813556279.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_core_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_core_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_0_2_v20130417.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_0_2_v20130417.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/BlogController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/Procfile" afterPath="$PROJECT_DIR$/target/heroku/app/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blxg.iml" afterPath="$PROJECT_DIR$/blxg.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main.txt" afterPath="$PROJECT_DIR$/src/main/java/main.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire2394162239621454195tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire2394162239621454195tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7547405064729414679tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7547405064729414679tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/system.properties" afterPath="$PROJECT_DIR$/target/heroku/app/system.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blxg.iws" />
@@ -99,8 +40,8 @@
       <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/blog/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40686274">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.7745098">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -506,7 +447,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16983895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -578,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blog/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40686274">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.7745098">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

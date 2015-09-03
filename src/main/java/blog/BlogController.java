@@ -15,6 +15,7 @@ import java.io.Writer;
 
 import static javax.swing.UIManager.get;
 import static spark.SparkBase.port;
+import static spark.SparkBase.setPort;
 
 /**
  * Created by gerardo on 02/09/15.
@@ -27,7 +28,7 @@ public class BlogController {
     public static void main(String[] args)throws IOException{
 
         if(args.length==0){
-            new BlogController("mongodb://");
+            new BlogController("mongodb://<dbuser>:<dbpassword>@ds055742.mongolab.com:55742/heroku_r763m401t");
         }else{
             new BlogController(args[0]);
         }
@@ -45,12 +46,13 @@ public class BlogController {
 
     public BlogController(String mongoURIString)throws IOException{
         final MongoClient mongoClient = new MongoClient(new MongoClientURI(mongoURIString));
-        final MongoDatabase blogDataBase = mongoClient.getDatabase("blog");
+        final MongoDatabase blogDataBase = mongoClient.getDatabase("heroku_r763m401");
 
         //DAOS
 
         conf = createFreemarkerConfiguration();
-            port(getHerokuAssignedPort());
+        port(getHerokuAssignedPort());
+        //setPort(8082);
         initializeRoutes();
 
     }
