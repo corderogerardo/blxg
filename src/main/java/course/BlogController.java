@@ -111,6 +111,8 @@ public class BlogController {
                 List<Document> posts = blogPostDAO.findByDateDescending(10);
                 SimpleHash root = new SimpleHash();
 
+
+
                 root.put("myposts", posts);
                 if (username != null) {
                     root.put("username", username);

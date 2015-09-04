@@ -1,9 +1,43 @@
 @import "normalize.css"
 @import "https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue-light_blue.min.css"
 @import "//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css"
+bordes(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	-ms-border-radius n
+	-o-border-radius n
+	border-radius n
+bordesMaterial()
+	box-shadow 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+bordesMaterialDos()
+	box-shadow 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+//nuevos colores
+ebonyClay = rgba(34, 49, 63, 1)
+ebonyClayOp = rgba(34, 49, 63, 0.6)
+aliceBlue = rgba(228, 241, 254,1)
+aliceBlueOp = rgba(228, 241, 254,0.5)
+curiusBlue = rgba(52, 152, 219,1)
+*
+	margin 0
+	padding 0
+body
+	background-color aliceBlue
+	font-family 'Hack', sans-serif
+	text-align center
+	text-rendering optimizeLegibility
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type
 	padding-right 0
-.btn-color-blog
-	color white
-.btn-color-blog:hover
-	color black
+.demo-card-wide.mdl-card
+	align-items start-around
+	flex-direction colummn
+	justify-content center
+	margin-top 10px
+.demo-card-wide > .mdl-card__title
+	color ebonyClay
+	height 176px;
+.demo-card-wide > .mdl-card__menu
+	color ebonyClay
+.mdl-card__actions
+	background-color curiusBlue
+.a-color
+	color aliceBlue

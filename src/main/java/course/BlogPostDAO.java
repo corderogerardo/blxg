@@ -75,6 +75,7 @@ public class BlogPostDAO {
         return posts;
     }
 
+
     public String addPost(String title, String body, List tags, String username) {
 
         System.out.println("inserting blog entry " + title + " " + body);
