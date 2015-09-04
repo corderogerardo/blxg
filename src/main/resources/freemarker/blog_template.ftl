@@ -14,16 +14,37 @@
 
   </head>
 <body>
-
-<#if username??>
-    Welcome ${username} <a href="/logout">Logout</a> | <a href="/newpost">New Post</a>
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+      <#if username??>
+    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a> | <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
 
     <p>
 <#else>
-    Welcome guest <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  href="/signup"> Sign up </a> | <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Log in</a>
+    Bienvenido invitado <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  href="/signup"> Registrate </a><a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
 </#if>
-
-<h1>My Blog</h1>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+    <!-- Your content goes here -->
 
 <#list myposts as post>
     <h2><a href="/post/${post["permalink"]}">${post["title"]}</a></h2>
@@ -50,6 +71,10 @@
 
     <p>
 </#list>
+    </div>
+  </main>
+</div>
+
 </body>
 </html>
 
