@@ -14,21 +14,21 @@
 
   </head>
 <body>
-<div class="mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--scroll">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
+      <span class="mdl-layout-title">Gerardo Cordero: blog!</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
       <#if username??>
-    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a> | <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
+    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
 
     <p>
 <#else>
-    Bienvenido invitado <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  href="/signup"> Registrate </a><a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
 </#if>
       </nav>
     </div>
@@ -36,10 +36,13 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+    <#list myposts as post>
+      <#if post["tags"]??>
+            <#list post["tags"] as tag>
+                <a class="mdl-navigation__link" href="/tag/${tag}">${tag} Series</a>
+            </#list>
+        </#if>
+    </#list>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -62,7 +65,7 @@
     <p>
 
     <p>
-        <em>Filed Under</em>:
+        <em>Serie</em>:
         <#if post["tags"]??>
             <#list post["tags"] as tag>
                 <a href="/tag/${tag}">${tag}</a>

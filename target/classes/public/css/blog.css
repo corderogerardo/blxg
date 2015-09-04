@@ -10,14 +10,3 @@
 .btn-color-blog:hover {
   color: #000;
 }
-.boxMenu {
-  position: fixed;
-  width: 100%;
-}
-.conteneDorBlogs {
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: row;
-  height: 650px;
-  width: 100%;
-}

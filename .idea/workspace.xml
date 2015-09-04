@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="" />
+    <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/ic_administrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/css/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/css/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/font/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/js/materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/img/materialize/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/js/menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/js/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/blog.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/css/foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/css/foundation.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/img/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.abide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.clearing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.equalizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.interchange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.joyride.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.magellan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.orbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/foundation/foundation.topbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/vendor/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/vendor/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/vendor/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/vendor/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/js/vendor/placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/foundation/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/style/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire1269394275136710930tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire3727594653286071583tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter7595135795342571801.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$1.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$10.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$11.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$12.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$13.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$14.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$2.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$3.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$4.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$5.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$6.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$7.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$8.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$9.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$FreemarkerBasedRoute.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$FreemarkerBasedRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/Procfile" afterPath="$PROJECT_DIR$/target/heroku/app/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/css/blog.css" afterPath="$PROJECT_DIR$/target/classes/public/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/css/blog.styl" afterPath="$PROJECT_DIR$/target/classes/public/css/blog.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/blog_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/blog_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/system.properties" afterPath="$PROJECT_DIR$/target/heroku/app/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/welcome.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/welcome.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="blxg.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,21 +124,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog_template.ftl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blog_template.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.15625">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16908212">
-              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +173,8 @@
         <option value="$PROJECT_DIR$/blxg.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/freemarker/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
       </list>
     </option>
   </component>
@@ -530,7 +631,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -727,21 +828,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16908212">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15625">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
