@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$1.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$10.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$11.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$12.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$13.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$14.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$2.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$3.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$4.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$5.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$6.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$7.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$8.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController$9.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogPostDAO.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogPostDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/vendor/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/public/js/vendor/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/vendor/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/public/js/vendor/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/vuejsmarkdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/public/js/vuejsmarkdown.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/css/blog.css" afterPath="$PROJECT_DIR$/src/main/resources/public/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/css/blog.css" afterPath="$PROJECT_DIR$/target/classes/public/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/css/blog.styl" afterPath="$PROJECT_DIR$/src/main/resources/public/css/blog.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/css/blog.styl" afterPath="$PROJECT_DIR$/target/classes/public/css/blog.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/blog_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/newpost_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/newpost_template.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blxg.iws" />
@@ -52,33 +43,9 @@
       <file leaf-file-name="blog_template.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5859375">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state vertical-scroll-proportion="1.171875">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="394" column="61" selection-start-line="394" selection-start-column="61" selection-end-line="394" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogPostDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +122,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,9 +296,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,6 +305,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -558,8 +528,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="27" width="1374" height="745" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="27" width="1374" height="745" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -569,11 +539,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -644,10 +614,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <caret line="394" column="61" selection-start-line="394" selection-start-column="61" selection-end-line="394" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.096618354">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.096618354">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,33 +767,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="394" column="61" selection-start-line="394" selection-start-column="61" selection-end-line="394" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="394" column="61" selection-start-line="394" selection-start-column="61" selection-end-line="394" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5859375">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state vertical-scroll-proportion="1.171875">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>blxg</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.sparkjava:spark-core:1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
