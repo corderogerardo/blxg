@@ -14,63 +14,76 @@
 
   </head>
 <body>
-<div class="mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--scroll">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
+      
+      <span class="mdl-layout-title">Gerardo Cordero's Blog</span>
+      
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
       <#if username??>
-    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a> | <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
+    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
 
     <p>
 <#else>
-    Bienvenido invitado <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  href="/signup"> Registrate </a><a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="http://www.corderogerardo.com.ve/">Inicio</a>|||
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
 </#if>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Gerardo Cordero: blog personal!</span>
+          
+    <span class="mdl-layout-title">Gerardo Cordero</span>
+    <span><a href="mailto:admin@gerardocordero.me" target="_blank">email me</a></span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="/tag/Java">Java</a>
+        <a class="mdl-navigation__link" href="/tag/MongoDB">MongoDB</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="page-content">
+    <div class="page-content mdl-grid">
     <!-- Your content goes here -->
-
-<#list myposts as post>
-    <h2><a href="/post/${post["permalink"]}">${post["title"]}</a></h2>
-    Posted ${post["date"]?datetime} <i>By ${post["author"]}</i><br>
-    Comments:
-    <#if post["comments"]??>
-        <#assign numComments = post["comments"]?size>
-            <#else>
-                <#assign numComments = 0>
-    </#if>
-
-    <a href="/post/${post["permalink"]}">${numComments}</a>
-    <hr>
-    ${post["body"]!""}
-    <p>
-
-    <p>
-        <em>Filed Under</em>:
+    
+    <#list myposts as post>
+    <div class="mdl-cell mdl-cell--2-col">
+        
+    </div>
+<div class="mdl-cell mdl-cell--8-col demo-card-wide mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text"><h2>${post["title"]}</h2></h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        Posted ${post["date"]?datetime} <i>By ${post["author"]}</i><br>
+    
+     <em>Serie</em>:
         <#if post["tags"]??>
             <#list post["tags"] as tag>
                 <a href="/tag/${tag}">${tag}</a>
             </#list>
         </#if>
-
-    <p>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a class="a-color mdl-button" href="/post/${post["permalink"]}">${post["title"]}</a>
+    </div>
+    <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+        </button>
+    </div>
+    
+</div>
+<div class="mdl-cell mdl-cell--2-col">
+        
+    </div>
 </#list>
+
+
+
     </div>
   </main>
 </div>
