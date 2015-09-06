@@ -60,7 +60,7 @@
     <#-- grid de 8 columnas -->
     <div class="contPost">
     <#-- Contenedor del titulo y la fecha -->
-<div class="contPostTitle">
+<div class="contPostTitleO">
     <div class="postDate">
         <div class="mdl-textfield mdl-js-textfield">
        <input class="mdl-textfield__input" type="text" name="subject" size="120" 
@@ -71,7 +71,7 @@
 </div>
 <#-- contenedor del post -->
 <div id="editor" class="">
-    <textarea id="inputArea" name="body" v-model="input">${body!""}</textarea>
+    <textarea rows="50" cols="100" id="inputArea" name="body" v-model="input">${body!""}</textarea>
     
 </div>
 <#-- Informacion del post -->

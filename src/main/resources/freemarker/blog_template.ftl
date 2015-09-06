@@ -55,7 +55,9 @@
     </div>
 <div class="mdl-cell mdl-cell--8-col demo-card-wide mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text"><h2>${post["title"]}</h2></h2>
+        <h2 class="mdl-card__title-text">
+        <a href="/post/${post["permalink"]}">
+        <h2>${post["title"]}</h2></a></h2>
     </div>
     <div class="mdl-card__supporting-text">
         Posted ${post["date"]?datetime} <i>By ${post["author"]}</i><br>
