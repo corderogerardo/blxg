@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="/css/blog.css">
 
   </head>
-<body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
+<body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header-scroll">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       
@@ -46,7 +46,7 @@
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="page-content mdl-grid">
+    <div class="page-content mdl-grid" id="overview">
     <!-- Your content goes here -->
     
     <#list myposts as post>
@@ -87,7 +87,10 @@
 
 
     </div>
+     <#-- footer -->
+    <#include "*/footer.ftl">
   </main>
+ 
 </div>
 
 </body>

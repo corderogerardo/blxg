@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="/css/blog.css">
 
   </head>
-<body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
+<body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header-scroll">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       
@@ -50,7 +50,7 @@
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="page-content mdl-grid">
+    <div class="page-content mdl-grid" id="overview">
 <!-- Your content start here -->
    
     <#-- grid de 8 columnas -->
@@ -58,7 +58,7 @@
     <#-- Contenedor del titulo y la fecha -->
 <div class="contPostTitle">
     <div class="tituloPost">
-    <h2>${post["title"]}</h2>
+    <h3>${post["title"]}</h3>
     </div>
     <div class="postDate">
         Posted ${post["date"]?datetime}
@@ -96,7 +96,12 @@
 
 <#-- Your content ends here -->
     </div>
+
+
   </main>
+   <#-- footer -->
+    <#include "*/footer.ftl">
+ 
 </div>
 <script type="text/javascript" src="/js/vuejsmarkdown.js"></script>
 
