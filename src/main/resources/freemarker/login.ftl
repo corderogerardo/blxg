@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
   <head>
-    <title>Login</title>
-    <style type="text/css">
-      .label {text-align: right}
-      .error {color: red}
-    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gerardo Cordero: blog personal!</title>
+    <meta name="description" content="Gerardo Cordero: blog personal!" />
+    <meta name="keywords" content="Front-end, Back-end, FullStackJavaScript jquery angular vuejs, FullStackJava Spring e Hibernate, FullStackPHP Laravel5.1, Postgres y MongoDB"/>
+    
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">        
+    
+    <link rel="stylesheet" href="/css/blog.css">
 
   </head>
 
-  <body>
-    Need to Create an account? <a href="/signup">Signup</a><p>
+  <body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+<#-- menu -->
+    <#include "*/menu.ftl">
+  <#-- contenido principal -->
+  <main class="mdl-layout__content">
+    <div class="page-content mdl-grid" id="overview">
+    <!-- Your content goes here -->
     <h2>Login</h2>
     <form method="post">
-      <table>
-        <tr>
-          <td class="label">
-            Username
-          </td>
-          <td>
-            <input type="text" name="username" value="${username}">
-          </td>
-          <td class="error">
-          </td>
-        </tr>
+       <div class="mdl-textfield mdl-js-textfield">
+       <input class="mdl-textfield__input" type="text" name="username" size="40" 
+       value="${username}">
+       <label class="mdl-textfield__label">Username</label>
+       </div>
+        <div class="error">
+          </div>
+         <div class="mdl-textfield mdl-js-textfield">
+       <input class="mdl-textfield__input" type="password" name="password" size="40" 
+       value="" placeholder="">
+       <label class="mdl-textfield__label">Password</label>
+       </div>
 
-        <tr>
-          <td class="label">
-            Password
-          </td>
-          <td>
-            <input type="password" name="password" value="">
-          </td>
-          <td class="error">
+          <div class="error">
 	    ${login_error}
             
-          </td>
-        </tr>
-
-      </table>
-
-      <input type="submit">
+          </div>
+ <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" type="submit"> <i class="material-icons">login</i> </button>
+     
     </form>
+
+     </div>
+     <#-- footer -->
+    <#include "*/footer.ftl">
+  </main>
+ 
+</div>
   </body>
 
 </html>

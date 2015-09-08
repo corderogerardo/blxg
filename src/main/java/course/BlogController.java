@@ -152,61 +152,21 @@ public class BlogController {
         });
 
         // handle the signup post
-        post(new FreemarkerBasedRoute("/signup", "signup.ftl") {
+        post(new FreemarkerBasedRoute("/signup", "blog_template.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
-                String email = request.queryParams("email");
-                String username = request.queryParams("username");
-                String password = request.queryParams("password");
-                String verify = request.queryParams("verify");
 
-                HashMap<String, String> root = new HashMap<String, String>();
-                root.put("username", StringEscapeUtils.escapeHtml4(username));
-                root.put("email", StringEscapeUtils.escapeHtml4(email));
+                        response.redirect("/");
 
-                if (validateSignup(username, password, verify, email, root)) {
-                    // good user
-                    System.out.println("Signup: Creating user with: " + username + " " + password);
-                    if (!userDAO.addUser(username, password, email)) {
-                        // duplicate user
-                        root.put("username_error", "Username already in use, Please choose another");
-                        template.process(root, writer);
-                    }
-                    else {
-                        // good user, let's start a session
-                        String sessionID = sessionDAO.startSession(username);
-                        System.out.println("Session ID is" + sessionID);
-
-                        response.raw().addCookie(new Cookie("session", sessionID));
-                        response.redirect("/welcome");
-                    }
-                }
-                else {
-                    // bad signup
-                    System.out.println("User Registration did not validate");
-                    template.process(root, writer);
-                }
             }
         });
 
         // present signup form for blog
-        get(new FreemarkerBasedRoute("/signup", "signup.ftl") {
+        get(new FreemarkerBasedRoute("/signup", "blog_template.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer)
                     throws IOException, TemplateException {
-
-                SimpleHash root = new SimpleHash();
-
-                // initialize values for the form.
-                root.put("username", "");
-                root.put("password", "");
-                root.put("email", "");
-                root.put("password_error", "");
-                root.put("username_error", "");
-                root.put("email_error", "");
-                root.put("verify_error", "");
-
-                template.process(root, writer);
+                response.redirect("/");
             }
         });
 
@@ -271,7 +231,7 @@ public class BlogController {
             }
         });
 
-        get(new FreemarkerBasedRoute("/welcome", "welcome.ftl") {
+        get(new FreemarkerBasedRoute("/welcome", "blog_template.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
 
@@ -367,7 +327,7 @@ public class BlogController {
                         // set the cookie for the user's browser
                         response.raw().addCookie(new Cookie("session", sessionID));
 
-                        response.redirect("/welcome");
+                        response.redirect("/");
                     }
                 }
                 else {
@@ -415,7 +375,7 @@ public class BlogController {
         });
 
         // allows the user to logout of the blog
-        get(new FreemarkerBasedRoute("/logout", "signup.ftl") {
+        get(new FreemarkerBasedRoute("/logout", "blog_template.ftl") {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
 
