@@ -18,7 +18,7 @@
   <body class="mdl-demo mdl-base">
 <div class="mdl-layout mdl-js-layout">
 <#-- menu -->
-    <#include "*/menu.ftl">
+    <#include "*/menulogin.ftl">
   <#-- contenido principal -->
   <main class="mdl-layout__content">
     <div class="page-content mdl-grid" id="overview">
@@ -42,15 +42,15 @@
 	    ${login_error}
             
           </div>
- <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" type="submit"> <i class="material-icons">login</i> </button>
+ <button class="mdl-button mdl-js-button mdl-button--raised" type="submit"> login </button>
      
     </form>
 
      </div>
-     <#-- footer -->
-    <#include "*/footer.ftl">
+    
   </main>
- 
+  <#-- footer -->
+    <#include "*/footer.ftl">
 </div>
   </body>
 

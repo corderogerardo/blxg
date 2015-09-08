@@ -87,7 +87,7 @@ body {
 .postDate {
   font-size: 1em;
   height: 100%;
-  width: 49%;
+  width: 100%;
 }
 #editor {
   background-color: #fff;
@@ -134,4 +134,7 @@ body {
 .autorPost {
   height: 100%;
   width: 49%;
+}
+.formNewPost {
+  height: 80%;
 }

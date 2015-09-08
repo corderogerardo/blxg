@@ -28,7 +28,7 @@
   <main class="mdl-layout__content">
     <div class="page-content mdl-grid" id="overview">
 <!-- Your content start here -->
-   <form action="/newpost" method="POST">
+   <form action="/newpost" method="POST" class="mdl-cell mdl-cell--10-col mdl-cell--8-col-tablet formNewPost">
     ${errors!""}
     <#-- grid de 8 columnas -->
     <div class="contPost">
@@ -57,7 +57,7 @@
    </div>
 
     <div class="autorPost">
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" type="submit"> <i class="material-icons">add</i> </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised" type="submit">Save</button>
     </div>
     
 </div>

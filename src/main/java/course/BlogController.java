@@ -38,8 +38,8 @@ public class BlogController {
     public static void main(String[] args) throws IOException {
         staticFileLocation("/public");
         if (args.length == 0) {
-            //new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401");
-            new course.BlogController("mongodb://localhost");
+            new BlogController("mongodb://gecordero:botHACK.13@ds055742.mongolab.com:55742/heroku_r763m401");
+            //new course.BlogController("mongodb://localhost");
         }
         else {
             new BlogController(args[0]);
@@ -58,8 +58,8 @@ public class BlogController {
 
     public BlogController(String mongoURIString) throws IOException {
         final MongoClient mongoClient = new MongoClient(new MongoClientURI(mongoURIString));
-        //final MongoDatabase blogDatabase = mongoClient.getDatabase("heroku_r763m401");
-        final MongoDatabase blogDatabase = mongoClient.getDatabase("blog");
+        final MongoDatabase blogDatabase = mongoClient.getDatabase("heroku_r763m401");
+        //final MongoDatabase blogDatabase = mongoClient.getDatabase("blog");
 
         blogPostDAO = new BlogPostDAO(blogDatabase);
         userDAO = new UserDAO(blogDatabase);
@@ -127,6 +127,7 @@ public class BlogController {
             @Override
             protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
                 String permalink = request.params(":permalink");
+                String username = sessionDAO.findUserNameBySessionId(getSessionCookie(request));
 
                 System.out.println("/post: get " + permalink);
 
@@ -142,7 +143,7 @@ public class BlogController {
                     newComment.put("body", "");
 
                     SimpleHash root = new SimpleHash();
-
+                    root.put("username", username);
                     root.put("post", post);
                     root.put("comment", newComment);
 
@@ -383,7 +384,7 @@ public class BlogController {
 
                 if (sessionID == null) {
                     // no session to end
-                    response.redirect("/login");
+                    response.redirect("/");
                 }
                 else {
                     // deletes from session table
