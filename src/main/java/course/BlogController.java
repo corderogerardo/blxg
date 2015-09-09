@@ -38,8 +38,8 @@ public class BlogController {
     public static void main(String[] args) throws IOException {
         staticFileLocation("/public");
         if (args.length == 0) {
-            //new BlogController("mongodb://gecordero:blxg.123@ds055742.mongolab.com:55742/heroku_r763m401");
-            new course.BlogController("mongodb://localhost");
+            new BlogController("mongodb://gecordero:blxg.123@ds055742.mongolab.com:55742/heroku_r763m401");
+            //new course.BlogController("mongodb://localhost");
         }
         else {
             new BlogController(args[0]);
@@ -58,8 +58,8 @@ public class BlogController {
 
     public BlogController(String mongoURIString) throws IOException {
         final MongoClient mongoClient = new MongoClient(new MongoClientURI(mongoURIString));
-        //final MongoDatabase blogDatabase = mongoClient.getDatabase("heroku_r763m401");
-        final MongoDatabase blogDatabase = mongoClient.getDatabase("blog");
+        final MongoDatabase blogDatabase = mongoClient.getDatabase("heroku_r763m401");
+        //final MongoDatabase blogDatabase = mongoClient.getDatabase("blog");
 
         blogPostDAO = new BlogPostDAO(blogDatabase);
         userDAO = new UserDAO(blogDatabase);
