@@ -59,13 +59,15 @@
 </#list>
 
 
-
+   
     </div>
-     <#-- footer -->
-    <#include "*/footer.ftl">
+  
   </main>
- 
+ <#-- footer -->
+    <#include "*/footer.ftl">
+
 </div>
+
 
 </body>
 </html>

@@ -20,47 +20,20 @@
     <link rel="stylesheet" href="/css/blog.css">
 
   </head>
-<body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      
-      <span class="mdl-layout-title">Gerardo Cordero's Blog</span>
-      
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-      <#if username??>
-    Bienvenido ${username} ||| <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/">Blog Home</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>
-
-    <p>
-<#else>
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/">Blog Home</a>|||
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
-</#if>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-          
-    <span class="mdl-layout-title">Gerardo Cordero</span>
-    <span><a href="mailto:admin@gerardocordero.me" target="_blank">email me</a></span>
-    <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="/tag/Java">Java</a>
-        <a class="mdl-navigation__link" href="/tag/MongoDB">MongoDB</a>
-    </nav>
-  </div>
+<body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+<#-- menu -->
+  <#include "*/menu.ftl">
+  <#-- contenido principal -->
   <main class="mdl-layout__content">
-    <div class="page-content mdl-grid">
+    <div class="page-content mdl-grid" id="overview">
 <!-- Your content start here -->
-   <form action="/newpost" method="POST">
+   <form action="/newpost" method="POST" class="mdl-cell mdl-cell--10-col mdl-cell--8-col-tablet formNewPost">
     ${errors!""}
     <#-- grid de 8 columnas -->
     <div class="contPost">
     <#-- Contenedor del titulo y la fecha -->
-<div class="contPostTitle">
+<div class="contPostTitleO">
     <div class="postDate">
         <div class="mdl-textfield mdl-js-textfield">
        <input class="mdl-textfield__input" type="text" name="subject" size="120" 
@@ -71,7 +44,7 @@
 </div>
 <#-- contenedor del post -->
 <div id="editor" class="">
-    <textarea id="inputArea" name="body" v-model="input">${body!""}</textarea>
+    <textarea rows="50" cols="100" id="inputArea" name="body" v-model="input">${body!""}</textarea>
     
 </div>
 <#-- Informacion del post -->
@@ -84,7 +57,7 @@
    </div>
 
     <div class="autorPost">
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" type="submit"> <i class="material-icons">add</i> </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised" type="submit">Save</button>
     </div>
     
 </div>
@@ -96,6 +69,8 @@
 
 <#-- Your content ends here -->
     </div>
+     <#-- footer -->
+    <#include "*/footer.ftl">
   </main>
 </div>
 <script type="text/javascript" src="/js/vuejsmarkdown.js"></script>

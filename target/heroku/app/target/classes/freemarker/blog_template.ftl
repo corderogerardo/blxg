@@ -13,40 +13,14 @@
     <link rel="stylesheet" href="/css/blog.css">
 
   </head>
-<body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      
-      <span class="mdl-layout-title">Gerardo Cordero's Blog</span>
-      
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-      <#if username??>
-    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
-
-    <p>
-<#else>
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="http://www.corderogerardo.com.ve/">Inicio</a>|||
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
-</#if>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-          
-    <span class="mdl-layout-title">Gerardo Cordero</span>
-    <span><a href="mailto:admin@gerardocordero.me" target="_blank">email me</a></span>
-    <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="/tag/Java">Java</a>
-        <a class="mdl-navigation__link" href="/tag/MongoDB">MongoDB</a>
-    </nav>
-  </div>
+<body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+<#-- menu -->
+  
+  <#include "*/menu.ftl">
+  <#-- contenido principal -->
   <main class="mdl-layout__content">
-    <div class="page-content mdl-grid">
+    <div class="page-content mdl-grid" id="overview">
     <!-- Your content goes here -->
     
     <#list myposts as post>
@@ -55,7 +29,9 @@
     </div>
 <div class="mdl-cell mdl-cell--8-col demo-card-wide mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text"><h2>${post["title"]}</h2></h2>
+        <h2 class="mdl-card__title-text">
+        <a href="/post/${post["permalink"]}">
+        <h2>${post["title"]}</h2></a></h2>
     </div>
     <div class="mdl-card__supporting-text">
         Posted ${post["date"]?datetime} <i>By ${post["author"]}</i><br>
@@ -85,7 +61,10 @@
 
 
     </div>
+     <#-- footer -->
+    <#include "*/footer.ftl">
   </main>
+ 
 </div>
 
 </body>

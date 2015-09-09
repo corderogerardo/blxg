@@ -17,40 +17,13 @@
     <link rel="stylesheet" href="/css/blog.css">
 
   </head>
-<body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      
-      <span class="mdl-layout-title">Gerardo Cordero's Blog</span>
-      
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-<#if username??>
-    Bienvenido ${username} <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>
-
-    <p>
-<#else>
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/">Blog Home</a>|||
-    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/login">Inicia Sesion</a>
-</#if>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-          
-    <span class="mdl-layout-title">Gerardo Cordero</span>
-    <span><a href="mailto:admin@gerardocordero.me" target="_blank">email me</a></span>
-    <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="/tag/Java">Java</a>
-        <a class="mdl-navigation__link" href="/tag/MongoDB">MongoDB</a>
-    </nav>
-  </div>
+<body class="mdl-demo mdl-base">
+<div class="mdl-layout mdl-js-layout">
+ <#-- menu -->
+ <#include "*/menu.ftl">
+<#-- contenido principal -->
   <main class="mdl-layout__content">
-    <div class="page-content mdl-grid">
+    <div class="page-content mdl-grid" id="overview">
 <!-- Your content start here -->
    
     <#-- grid de 8 columnas -->
@@ -58,7 +31,7 @@
     <#-- Contenedor del titulo y la fecha -->
 <div class="contPostTitle">
     <div class="tituloPost">
-    <h2>${post["title"]}</h2>
+    <h3>${post["title"]}</h3>
     </div>
     <div class="postDate">
         Posted ${post["date"]?datetime}
@@ -96,7 +69,12 @@
 
 <#-- Your content ends here -->
     </div>
+
+
   </main>
+   <#-- footer -->
+    <#include "*/footer.ftl">
+ 
 </div>
 <script type="text/javascript" src="/js/vuejsmarkdown.js"></script>
 
