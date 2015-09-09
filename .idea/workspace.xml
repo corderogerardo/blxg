@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dependency/jackson-annotations-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-annotations-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dependency/jackson-core-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-core-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dependency/jackson-databind-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-databind-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dependency/keen-client-api-java-2.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/keen-client-api-java-2.1.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire5373500642894354170tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7375900910764653831tmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire8518758575784400586tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire5930504844908033088tmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter7079929603166069210.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter2425600401370104929.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/course/bdconfig.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire5930504844908033088tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7375900910764653831tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter2425600401370104929.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/course/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/SessionDAO.class" afterPath="$PROJECT_DIR$/target/classes/course/SessionDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/course/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/course/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/SessionDAO.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/SessionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/UserDAO.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/UserDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/entry_template.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blxg.iws" />
@@ -45,7 +38,22 @@
     <favorites_list name="blxg" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.642385">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7966#7982#0" expanded="true" />
+                <element signature="e#17332#17340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -529,7 +537,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="27" width="1374" height="745" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -539,7 +547,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25925925" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25925925" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -730,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -813,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/bdconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -885,22 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17218544">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49448124">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.357616">
@@ -909,9 +886,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17218544">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27152318">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.73426574">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26490065">
+        <state vertical-scroll-proportion="-8.642385">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />

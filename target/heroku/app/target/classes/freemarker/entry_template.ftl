@@ -75,7 +75,19 @@
     <#include "*/footer.ftl">
  
 </div>
-<script type="text/javascript" src="/js/vuejsmarkdown.js"></script>
+<script type="text/javascript">
+  new Vue({
+  el: '#editor',
+  data:
+  {
+    input: ''
+  },
+  filters:
+  {
+    marked: marked
+  },
+});
+</script>
 
 </body>
 </html>
