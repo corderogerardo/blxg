@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30189c1a-bd2f-4fcc-bb77-f1868fb96136" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/course/bdconfig.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire349189630322227633tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7689232271970232029tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter3087732297071370539.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$10.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$11.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$12.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$13.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$14.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$2.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$3.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$4.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$5.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$6.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$7.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$8.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$9.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController$9.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire1664778004187542217tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire2269671816508792373tmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire2338497649593558748tmp" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefire7896330989806319609tmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter6518406046546585710.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire/surefirebooter3759895951915198549.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/course/BlogController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/blxg-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0-jar-with-dependencies.jar" />
@@ -26,13 +12,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" afterPath="$PROJECT_DIR$/target/heroku/app/target/blxg-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/public/css/blog.css" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/public/css/blog.styl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/css/blog.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/blog_template.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/entry_template.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/login.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/newpost_template.ftl" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/freemarker/newpost_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/target/classes/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/js/vuejsmarkdown.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/vuejsmarkdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/js/vuejsmarkdown.js" afterPath="$PROJECT_DIR$/target/classes/public/js/vuejsmarkdown.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blxg.iws" />
@@ -59,8 +43,8 @@
       <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5033113">
-              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.23178808">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7966#7982#0" expanded="true" />
@@ -936,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5033113">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.23178808">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7966#7982#0" expanded="true" />
