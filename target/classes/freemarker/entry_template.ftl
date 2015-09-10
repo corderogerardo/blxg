@@ -37,12 +37,12 @@
         Posted ${post["date"]?datetime}
     </div>
 </div>
-<input v-model="input" type="text-area" value="${post["body"]}" hidden>
+
 <#-- contenedor del post -->
 <div id="editor" class="contPostBody">
-<input v-model="input" type="text-area" value="${post["body"]}" hidden>
-  <div v-html="input | marked"></div>
 
+  <div v-html="input | marked"></div>
+<input v-model="input" type="text-area" value="${post["body"]}" hidden>
 </div>
 <#-- Informacion del post -->
 <div class="contPostAutor">
