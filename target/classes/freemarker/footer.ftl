@@ -6,5 +6,9 @@
         <li><a class="mdl-button mdl-js-button mdl-button--raised" href="mailto:admin@gerardocordero.me?subject=feedback" target="_blank" >Email me</a></li>
       </ul>
   </div>
-  
 </footer>
+</div>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<script type="text/javascript" src="/js/vuejsmarkdown.js"></script>
+</body>
+</html>

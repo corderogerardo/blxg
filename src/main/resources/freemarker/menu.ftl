@@ -7,11 +7,13 @@
     <meta name="description" content="Gerardo Cordero: blog personal!" />
     <meta name="keywords" content="Front-end, Back-end, FullStackJavaScript jquery angular vuejs, FullStackJava Spring e Hibernate, FullStackPHP Laravel5.1, Postgres y MongoDB"/>
 
-    
+
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">        
     
     <link rel="stylesheet" href="/css/blog.css">
+    <script type="text/javascript" src="/js/vendor/vue.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/marked.min.js"></script>
 
   </head>
   <body class="mdl-demo mdl-base">
@@ -27,7 +29,10 @@
       <!-- Navigation -->
       <nav class="mdl-navigation">
 <#if username??>
-    Bienvenido ${username} ||| <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/">Volver</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>|||<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>
+    Bienvenido ${username} ||| 
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/">Volver</a>|||
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/newpost">New Post</a>|||
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Salir</a>
 
     <p>
 <#else>
@@ -42,7 +47,20 @@
     <span class="mdl-layout-title">Gerardo Cordero</span>
     <span><a href="mailto:admin@gerardocordero.me" target="_blank">email me</a></span>
     <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="/tag/Java">Java</a>
-        <a class="mdl-navigation__link" href="/tag/MongoDB">MongoDB</a>
+    <#if username??>
+   <a class="mdl-button mdl-js-button mdl-button--raised" href="/">Volver</a>
+   <a class="mdl-button mdl-js-button mdl-button--raised" href="/newpost">New Post</a>
+   <a class="mdl-button mdl-js-button mdl-button--raised" href="/logout">Salir</a>
+
+    <p>
+<#else>
+    <a class="mdl-button mdl-js-button mdl-button--raised" href="/">Blog Home</a>
+    <a class="mdl-button mdl-js-button mdl-button--raised" href="/login">Inicia Sesion</a>
+</#if>
+  <hr>
+
+        <a class="mdl-navigation__link mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/tag/Java">Java</a>
+        <a class="mdl-navigation__link mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/tag/MongoDB">MongoDB</a>
+        <a class="mdl-navigation__link mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/tag/Blog">Blog</a>
     </nav>
   </div>

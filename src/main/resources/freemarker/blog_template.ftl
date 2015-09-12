@@ -1,6 +1,5 @@
 
 <#-- menu -->
-  
   <#include "*/menu.ftl">
   <#-- contenido principal -->
   <main class="mdl-layout__content">
@@ -41,9 +40,6 @@
         
     </div>
 </#list>
-
-
-   
     </div>
   
   </main>
